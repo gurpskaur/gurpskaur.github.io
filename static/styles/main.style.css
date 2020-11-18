@@ -19,11 +19,7 @@ body {
   text-decoration: none;
 }
 
-.top-navigation a:visited {
-  color: #9e2a2b;
-}
-
-.top-navigation a:hover {
+.top-navigation a:hover h2 {
   color: #9e2a2b;
 }
 
