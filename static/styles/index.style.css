@@ -1,0 +1,75 @@
+.project a {
+  text-decoration: none;
+}
+
+.project a:hover .project__title {
+  color: #9e2a2b;
+  text-decoration: underline;
+}
+
+.project__image {
+  border-radius: 8px;
+  overflow: hidden;
+  height: 180px;
+}
+
+.project__image img {
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+.project__image:hover img {
+  transform: scale(1.1);
+}
+
+.project__image--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20%;
+}
+
+
+/* For hand animation */
+#wave-text {
+  margin-right: 24px;
+}
+
+#wave {
+  position: absolute;
+  margin-left: 12px;
+  -webkit-animation: spin .8s ease-in-out infinite;
+  -moz-animation: spin .8s ease-in-out infinite;
+  animation: spin .8s ease-in-out infinite;
+}
+
+@-moz-keyframes spin {
+  50% {
+    -moz-transform: rotate(9deg);
+  }
+
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  50% {
+    -webkit-transform: rotate(9deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes spin {
+  50% {
+    -webkit-transform: rotate(9deg);
+    transform: rotate(9deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
