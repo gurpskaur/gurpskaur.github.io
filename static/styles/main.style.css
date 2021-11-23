@@ -279,6 +279,9 @@ a:hover {
 .color-bg-accent {
   background-color: #9e2a2b;
 }
+.color-bg-twitterblack {
+  background-color: #14171A;
+}
 
 /** Grid */
 .grid {
@@ -447,4 +450,8 @@ a:hover {
 
 .glide__arrow {
   border-radius: 100px !important;
+}
+
+.project__image--twitter img {
+  height: 80%;
 }
